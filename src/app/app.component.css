@@ -1,0 +1,16 @@
+section{
+    text-align: center;
+}
+button{
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    border-style:solid;
+    border-radius: 10px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    box-shadow:  0 0 50px rebeccapurple;;
+    width: 150px;
+    height: 30px;
+
+}

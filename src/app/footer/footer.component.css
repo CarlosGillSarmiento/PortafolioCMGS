@@ -1,0 +1,12 @@
+footer{
+    border-top: 4px solid rebeccapurple;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+.redes-sociales-icon{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}

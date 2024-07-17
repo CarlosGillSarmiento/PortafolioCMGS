@@ -1,0 +1,15 @@
+<section>
+    @if(logueado){
+        <app-presentacion></app-presentacion>
+        <app-perfil></app-perfil>
+        <app-lenguajes></app-lenguajes>
+        <app-experiencia></app-experiencia>
+        <app-footer></app-footer>
+    }@else{
+        <p>Bienvenido a mi Portfolio</p>
+        <button (click)="logueado=true">
+            Click para ver Portfolio
+        </button>
+    }  
+</section>
+<!--<router-outlet /-->

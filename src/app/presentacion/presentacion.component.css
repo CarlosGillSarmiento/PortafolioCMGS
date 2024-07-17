@@ -1,0 +1,31 @@
+section{
+    border-bottom: 4px solid rebeccapurple;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(18, 18, 18);
+    /*background: linear-gradient(to top left,  black,rebeccapurple); */
+    font-size: 20px;
+    display: block;
+    padding: 25px;
+}
+section p{
+    padding: 25px;
+}
+h1{
+    font-size: 40px;
+    padding-top: 35px; 
+}
+h1 span{
+    display: block;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: -81px;
+    margin-top: 25px;
+}
+a{
+    color: white;
+}
