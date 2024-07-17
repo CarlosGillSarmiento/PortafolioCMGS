@@ -9,7 +9,13 @@ import { FooterComponent } from './footer/footer.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,PresentacionComponent,PerfilComponent,LenguajesComponent,ExperienciaComponent,FooterComponent],
+  imports: [
+    RouterOutlet,
+    PresentacionComponent,
+    PerfilComponent,
+    LenguajesComponent,
+    ExperienciaComponent,
+    FooterComponent],
   templateUrl: './app.component.html' , 
   styleUrl: './app.component.css'
 })
